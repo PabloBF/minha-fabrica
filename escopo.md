@@ -1,4 +1,4 @@
-# Escopo do projeto de _software_
+# Escopo do projeto de _software_ “Meu laboratório”
 
 ## Contexto:
 O _software_ “Meu laboratório” será um aplicativo móvel gratuito para pessoas interessadas em organizar seu laboratório de eletrônica particular por meio do cadastro dos componentes disponíveis e suas características principais, disponibilizando opções de pesquisa e geração de relatórios.
