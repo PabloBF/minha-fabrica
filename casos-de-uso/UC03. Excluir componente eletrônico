@@ -1,0 +1,30 @@
+Ator principal: PROJETISTA
+Atores secundários: ADMINISTRADOR
+Resumo: Este caso de uso descreve as etapas necessárias para que o PROJETISTA cadastre um projeto.
+Pré-condições: -
+Pós-condições: -
+Cenário principal
+Ações do ator (AA) e Ações do sistema (AS)
+AA. Seleciona o componente que deseja excluir.
+AA. Confirma a exclusão.
+AS. Exclui componente.
+Restrições/Validações
+O componente a ser excluído não pode possuir unidades em estoque.
+O componente a ser excluído não pode estar relacionado a nenhum projeto.
+Cenário alternativo 1 – Componente em almoxarifado
+AS. Informa que existe no almoxarifado unidades do componente a ser excluído.
+AA. Opta por cancelar exclusão, dar baixa nas unidades remanescentes ou inativar componentes.
+Cenário alternativo 2 - Componente em projeto
+AS. Informa que o componente não pode ser excluído porque faz parte de um ou mais projetos.
+AS. Exibe lista de projetos que contêm o componente.
+AS. Exibe as opções de cancelar exclusão, cancelar exclusão e deprecar componentes ou substituir componente em projeto e prosseguir com a exclusão.
+AA. Opta por cancelar exclusão.
+AS. Retorna à tela anterior.
+AA. Opta por cancelar exclusão e deprecar componente.
+AS. Altera a situação do componente para deprecado.
+AS. Retorna à tela anterior.
+AA. Opta por substituir componente em projeto e prosseguir com a exclusão.
+AA. Seleciona os componentes substitutos e as quantidades em cada um dos projetos.
+AS. Exclui componente.
+Exceções
+Não se aplica.
