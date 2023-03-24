@@ -1,0 +1,20 @@
+Ator principal: OPERADOR
+Atores secundários: ADMINISTRADOR
+Resumo: Este caso de uso descreve as etapas percorridas para editar um usuário.
+Pré-condições: -
+Pós-condições: -
+Cenário principal
+Ações do ator principal (AAP), Ações do ator secundário (AAS) e Ações do sistema (AS)
+AAP. Edita seus dados de usuário.
+AS. Verifica dados alterados.
+AS. Salva alterações.
+Restrições/Validações
+Não se aplica.
+Cenário alternativo 1 – Alteração de dados-chaves
+AS. Identifica solicitação de alteração de dados-chaves.
+AS. Solicita justificativa/anexos comprobatórios do solicitante.
+AS. Submete solicitação de alteração para revisão do administrador.
+AAS. Avalia alteração de dados-chaves.
+AAS. Aprova total, parcialmente ou reprova a alteração de dados-chaves.
+Exceções
+Não se aplica.
