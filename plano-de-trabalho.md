@@ -23,7 +23,7 @@ O software “Minha fábrica” será uma aplicação licenciada para empresas i
 - Duplicar projeto e componente.
 - Importar e exportar becape.
 - Rotinas de recebimento de pedidos dos clientes e compras junto a fornecedores.
-- Gerar relatórios de estoque de componentes, de componentes a comprar e de componentes necessários para cada projeto (BOM list).
+- Gerar relatórios de estoque de componentes, de componentes a comprar e de componentes necessários para cada projeto (_BOM list_).
 
 
 ## Metodologia
