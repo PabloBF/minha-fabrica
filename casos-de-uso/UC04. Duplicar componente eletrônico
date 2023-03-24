@@ -1,0 +1,14 @@
+Nome do caso de uso: UC04. Duplicar componente eletrônico
+Ator principal: PROJETISTA
+Atores secundários: -
+Resumo: Este caso de uso descreve as etapas percorridas por um projetista para duplicar um componente eletrônico.
+Pré-condições: -
+Pós-condições: -
+Cenário principal
+Ações do ator (AA) e Ações do sistema (AS)
+AA. Seleciona o componente que deseja duplicar.
+AS. Executa o UC1 - Cadastrar componente eletrônico, exibindo os campos pré-preenchidos.
+Restrições/Validações
+Não se aplica.
+Exceções
+Não se aplica.
