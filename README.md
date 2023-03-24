@@ -1,7 +1,7 @@
-# Escopo do projeto de _software_ “Meu laboratório”
+# Escopo do projeto de _software_ “Minha fábrica”
 
 ## Contexto:
-O _software_ “Meu laboratório” será um aplicativo móvel gratuito para pessoas interessadas em organizar seu laboratório de eletrônica particular por meio do cadastro dos componentes disponíveis e suas características principais, disponibilizando opções de pesquisa e geração de relatórios.
+O _software_ “Minha fábrica” será um aplicativo móvel gratuito para pessoas interessadas em organizar seu laboratório de eletrônica por meio do cadastro dos componentes disponíveis e suas características principais, disponibilizando opções de pesquisa e geração de relatórios.
 
 ## Objetivos:
 * Sistema monousuário com becape criptografado. Sem suporte para log de auditoria, histórico de alterações ou acesso.
