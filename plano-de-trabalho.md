@@ -33,19 +33,19 @@ Propõe-se o modelo espiral para desenvolvimento do software “Minha fábrica�
 As atividades previstas neste plano de trabalho serão realizadas em 4 meses. Com início no dia 8 de março de 2023 e finalizando no dia 28 de junho de 2023.
 
 ### Fase 1 – Iniciação
-Descrição: Levantamento de requisitos e estabelecimento das funcionalidades com o cliente.
+Descrição: Levantamento de requisitos e estabelecimento das funcionalidades com o cliente.  
 Produto: Documento de especificação de requisitos.
 
 ### Fase 2 – Desenvolvimento inicial
-Descrição: Análise dos requisitos e desenvolvimento do primeiro protótipo; criação da documentação inicial.
+Descrição: Análise dos requisitos e desenvolvimento do primeiro protótipo; criação da documentação inicial.  
 Produto: Protótipo 1
 
 ### Fase 3 – Desenvolvimento avançado
-Descrição: Conclusão do desenvolvimento e revisão das funcionalidades; atualização da documentação.
+Descrição: Conclusão do desenvolvimento e revisão das funcionalidades; atualização da documentação.  
 Produto: Protótipo 2
 
 ### Fase 4 – Conclusão
-Descrição: Testes finais para disponibilização da versão final; elaboração da documentação final.
+Descrição: Testes finais para disponibilização da versão final; elaboração da documentação final.  
 Produto: Versão Final
 
 A Tabela 1 apresenta o cronograma detalhado do desenvolvimento do projeto.
