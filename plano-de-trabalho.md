@@ -1,6 +1,6 @@
 # Plano de Trabalho 01
 Projeto: Minha fábrica  
-Cliente André Araújo
+Cliente: André Araújo
 
 ## Objetivos
 Sistema multiusuário com becape criptografado com histórico de alterações e com suporte para log de auditoria e histórico de acesso.
@@ -56,6 +56,9 @@ Tabela 1 - Cronograma do projeto.
 | 12/04/2023 a 09/05/2023 | 2     | - Análise dos requisitos;<br>- Prevenção de riscos<br>- Análise para gestão de prazo<br>- Desenvolvimento da primeira versão do protótipo<br>- Produção da documentação inicial<br>- Validação da primeira versão do protótipo<br>- Análise dos requisitos<br>- Prevenção de riscos<br>- Análise para gestão de prazo<br>- Desenvolvimento da segunda versão do protótipo<br>- Atualização da documentação<br>- Validação da segunda versão do protótipo. |
 | 10/05/2023 a 01/06/2023 | 3     | - Análise dos requisitos<br>- Prevenção de riscos<br>- Análise para gestão de prazo<br>- Desenvolvimento da quarta versão do protótipo<br>- Atualização da documentação<br>- Validação da quarta versão do protótipo. |
 | 02/06/2023 a 28/06/2023 | 4     | - Desenvolvimento da versão final do protótipo<br>- Produção da documentação final<br>- Validação da versão final do protótipo. |
+
+![Gráfico de Gantt para o cronograma do projeto](Gantt.png)
+
 
 ## Resultados esperados
 A implantação deste projeto pretende alcançar os seguintes resultados:
