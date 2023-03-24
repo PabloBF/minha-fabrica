@@ -1,0 +1,23 @@
+Nome do caso de uso: UC07. Excluir usuário
+Ator principal: ADMINISTRADOR
+Atores secundários: -
+Resumo: Este caso de uso descreve as etapas percorridas por um administrador para excluir um usuário.
+Pré-condições: -
+Pós-condições: -
+Cenário principal
+Ações do ator (AA) e Ações do sistema (AS)
+AA. Seleciona usuário a ser excluído.
+AS. Verifica possibilidade de exclusão.
+AA. Insere justificativa para exclusão.
+AA. Confirma exlusão.
+AS. Exclui usuário.
+Restrições/Validações
+Só podem ser excluídos usuários recém-cadastrados
+Cenário alternativo 1 – Usuário com registros no sistema (exceto cadastramento)
+AS. Verifica que usuário possui registros no sistema (exceto cadastramento).
+AS. Informa ao administrador que a exclusão não é permitida.
+AS. Pergunta ao administrador se deseja mudar a situação deste usuário para inativo.
+AA. Confirma inativação do usuário.
+AS. Inativa usuário.
+Exceções
+Não se aplica.
