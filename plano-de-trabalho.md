@@ -72,3 +72,9 @@ Tabela 2 - Cronograma financeiro para detalhamento dos recursos.
 | 1. Estrutura física | R$ 2.000,00   | R$ 2 000,00   | R$ 2.000,00   | R$ 2.000,00   | R$ 8.000,00   |
 | 2. Recursos humanos | R$ 24.000,00  | R$ 24.000,00  | R$ 24.000,00  | R$ 24.000,00  | R$ 96.000,00  | 
 | Total (R$)          | R$ 26.000,00  | R$ 26.000,00  | R$ 26.000,00  | R$ 26.000,00  | R$ 104.000,00 |
+
+### Equipe
+- Alencar Júnior
+- Bruno Peixoto
+- Pablo Busatto
+- Rafael Teles
