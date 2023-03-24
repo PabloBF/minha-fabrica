@@ -1,0 +1,41 @@
+Nome do caso de uso: UC05. Cadastrar usuário
+Ator principal: USUÁRIO NÃO AUTENTICADO
+Atores secundários: ADMINISTRADOR
+Resumo: Este caso de uso descreve as etapas percorridas por um administrador para cadastrar um usuário.
+Pré-condições: -
+Pós-condições: -
+Cenário principal
+Ações do ator principal (AAP), Ações do ator secundário (AAS) e Ações do sistema (AS)
+AAP.	Informa seus dados pré-cadastrais, dentre os quais nome, nome social, e-mail e senha.
+AAP.	Anexa documentação comprobatória.
+AS. 	Verifica unicidade de e-mail.
+AS.	Verifica força da senha.
+AS.	Disponibiliza pré-cadastro para verificação e aprovação do administrador.
+AAS.	Verifica informações e documentação pré-cadastrais.
+AAS.	Aprova pré-cadastro.
+AS.	Comunica usuário não cadastrado sobre aprovação do pré-cadastro.
+AS.	Disponibiliza cadastro para usuário não autenticado.
+AAP.	Autentica-se com e-mail e senha.
+AS.	Gera opções de nome de usuário e e-mail a partir do nome social informado no pré-cadastro.
+AAP.	Escolhe nome de usuário e e-mail institucional.
+AS.	Cadastra usuário.
+AS.	Cadastra e-mail institucional do usuário.
+AS.	Arquiva documentação do usuário.
+Restrições/Validações
+O e-mail informado no pré-cadastro não pode estar associado a um usuário já cadastrado.
+O usuário deve criar uma senha forte.
+As opções de e-mail e de nome de usuário serão geradas a partir dos nomes informados e de acordo com a disponibilidade.
+Cenário alternativo 1 – Pré-cadastro de usuário não reconhecido 
+AAS.	Identifica que o pré-cadastro é de um usuário não reconhecido.
+AAS.	Não aprova pré-cadastro.
+AS.	Informa usuário solicitante.
+Cenário alternativo 2 - Pré-cadastro com dados inconsistentes ou impróprios
+AAS.	Identifica pré-cadastro com dados inconsistentes ou impróprios.
+AAS.	Seleciona que dados ou documentos devem ser corrigidos.
+AAS.	Insere justificativa para a solicitação.
+AAS.	Submete solicitação de correção.
+AS.	Comunica usuário não autenticado.
+AAP.	Realiza correções.
+AS.	Retorna ao passo 5 do cenário principal.
+Exceções
+Não se aplica.
