@@ -1,6 +1,5 @@
 # Plano de Trabalho 01
-Projeto: Minha fábrica
-
+Projeto: Minha fábrica  
 Cliente André Araújo
 
 ## Objetivos
