@@ -1,5 +1,6 @@
 # Plano de Trabalho 01
 Projeto: Minha fábrica
+
 Cliente André Araújo
 
 ## Objetivos
@@ -66,30 +67,8 @@ Conforme objetivos e motivações expressos inicialmente, busca-se disponibiliza
 ### Valor
 
 Tabela 2 - Cronograma financeiro para detalhamento dos recursos.
-
-RUBRICAS
-MÊS 1
-MÊS 2
-MÊS 3
-MÊS 4
-TOTAL (R$)
-ESTRUTURA FÍSICA
-R$ 2.000,00
-R$ 2.000,00
-R$ 2.000,00
-R$ 2.000,00
-R$ 8.000,00
-RECURSOS HUMANOS
-R$ 24.000,00
-R$ 24.000,00
-R$ 24.000,00
-R$ 24.000,00
-R$ 96.000,00
-TOTAL (R$)
-R$ 26.000,00
-R$ 26.000,00
-R$ 26.000,00
-R$ 26.000,00
-R$ 104.000,00
-
-
+| Rubricas            | Mês 1         | Mês 2         | Mês 3         | Mês 4         | Total (R$)    |
+| ------------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| 1. Estrutura física | R$ 2.000,00   | R$ 2 000,00   | R$ 2.000,00   | R$ 2.000,00   | R$ 8.000,00   |
+| 2. Recursos humanos | R$ 24.000,00  | R$ 24.000,00  | R$ 24.000,00  | R$ 24.000,00  | R$ 96.000,00  | 
+| Total (R$)          | R$ 26.000,00  | R$ 26.000,00  | R$ 26.000,00  | R$ 26.000,00  | R$ 104.000,00 |
