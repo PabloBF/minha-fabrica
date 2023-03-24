@@ -1,6 +1,49 @@
+Este caso de uso descreve as etapas necessárias para que o PROJETISTA cadastre um projeto.
+
+# UC01. Cadastrar componente eletrônico
+
+Este caso de uso descreve as etapas necessárias para que o PROJETISTA cadastre um projeto.
+
+## Atores
+
+### Ator principal
+:triangular ruler: Projetista
+
+### Atores secundários
+:briefcase: Administrador
+
+## Condições
+
+### Pré-condições
+Não se aplica.
+
+### Pós-condições
+Não se aplica.
+
+## Cenário principal
+_Ações do ator (AA) e Ações do sistema (AS)_
+
+1. AA. Seleciona o componente que deseja excluir.
+2. AA. Confirma a exclusão.
+3. AS. Exclui componente.
+
+## Restrições e validações
+1. Não é permitida a duplicidade de componentes eletrônicos.
+
+## Cenários alternativos
+### Cenário alternativo 1 – Componente já cadastrado (duplicidade)
+2. AS. Identifica duplicidade
+   1. AS. Informa ao usuário que já existe um componente eletrônico cadastrado com as especificações informadas.
+   2. AA. Opta por editar as especificações ou cancelar cadastro.
+
+
+## Exceções
+Não se aplica.
+
+
 Ator principal: PROJETISTA
 Atores secundários: ADMINISTRADOR
-Resumo: Este caso de uso descreve as etapas necessárias para que o PROJETISTA cadastre um projeto.
+Resumo: 
 Pré-condições: -
 Pós-condições: -
 Cenário principal
