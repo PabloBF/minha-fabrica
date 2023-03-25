@@ -1,7 +1,7 @@
 Here is a simple flow chart:
 
-```mermaid
-graph TD;
+```plantuml
+@startuml
   A[Login/Logoff] -->|Implementa| B((Usuário))
   B -->|Inclui| C[Recuperar senha]
   D[Cadastrar usuário] -->|Implementa| E((Administrador))
@@ -29,4 +29,5 @@ graph TD;
   AC[Relatório de estoque de componentes] -->|Implementa| X((Administrador))
   AD[Relatório de componentes a comprar] -->|Implementa| X((Administrador))
   AE[Relatório de componentes necessários para cada projeto] -->|Implementa| X((Administrador))
+@enduml
 ```
