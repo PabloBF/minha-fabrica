@@ -22,7 +22,7 @@ Ações do ator (📐) e Ações do sistema (⚙️)
 2. 📐. Clica em cadastrar projeto.
 3. ⚙️. Exibe uma nova janela com campos obrigatórios (Nome do projeto, _BOM list_, quantidade de horas/operador necessárias para a produção de uma unidade do mesmo e descrição) e campos opcionais (foto e vídeo demonstrativo).
 4. 📐. Insere as informações solicitadas na janela. O botão CADASTRAR PROJETO fica disponível somente se os campos obrigatórios estiverem preenchidos (inicialmente, o botão CADASTRAR PROJETO fica indisponível, em aparência de marca d’água).
-5. ⚙️. Salva as informações do novo projeto no banco de dados do sistema com o status de CADASTRO EM ANÁLISE. O ADMINISTRADOR é informado da necessidade de revisar o cadastro com ações pertinentes no [UC8.1. Revisar cadastro de projeto](UC8.1. Revisar cadastro de projeto).
+5. ⚙️. Salva as informações do novo projeto no banco de dados do sistema com o status de CADASTRO EM ANÁLISE. O ADMINISTRADOR é informado da necessidade de revisar o cadastro com ações pertinentes no [UC8.1. Revisar cadastro de projeto](UC8.1. Revisar cadastro de projeto.md).
 
 ## Restrições e validações
 Não se aplica.
