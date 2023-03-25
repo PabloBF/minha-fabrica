@@ -1,0 +1,27 @@
+Nome do caso de uso: UC13. Cadastrar aquisição de componente
+
+Ator principal: ADMINISTRADOR
+Atores secundários: -
+Resumo: Este caso de uso descreve as etapas necessárias para que o USUÁRIO solicite componentes junto ao fornecedor.
+Pré-condições: -
+Pós-condições: -
+
+Cenário principal
+
+Ações do ator (AA) e Ações do sistema (AS)
+
+1 AA. O USUÁRIO identifica a necessidade de aquisição de componente.
+2 AA. O usuário seleciona os itens cadastrados em estoque com as quantidades a solicitar no formulário de solicitação, seleciona o fornecedor destinatário para solicitação de orçamento e confirma no botão SOLICITAR.
+3 AS. A solicitação de orçamento é retida no caso de uso 17 Comprar componentes para tratamento.
+
+Restrições/Validações
+
+-
+
+Cenário alternativo 1
+
+-
+
+Exceções
+
+-
