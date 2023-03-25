@@ -1,7 +1,9 @@
+Here is a simple flow chart:
+
 ```mermaid
-usecaseDiagram
-    :Usuário: --> (Use Case 1)
-    :Usuário: --> (Use Case 2)
-    (Use Case 1) --> (Use Case 3)
-    (Use Case 2) --> (Use Case 3)
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
