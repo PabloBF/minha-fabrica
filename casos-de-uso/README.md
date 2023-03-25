@@ -4,6 +4,6 @@
 - 👤 Usuário não logado
 - 👷 Operador
 - 📐 Projetista
-- 💼 Administrador
+- 👨‍💼 Administrador
 - 🏭 Sistema fábrica
 - 📦 Fornecedor
