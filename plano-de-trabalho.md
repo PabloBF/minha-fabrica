@@ -87,7 +87,7 @@ gantt
     Prevenção de riscos                                           :        des19, after des17, 2023-06-01
     Análise para gestão de prazo                                  :        des20, after des17, 2023-06-01
     Desenvolvimento do protótipo v3.0                             :        des21, after des17, 2023-06-01
-    Atualização da documentação;                                  :        des22, after des17, 2023-06-01
+    Atualização da documentação                                   :        des22, after des17, 2023-06-01
     Validação do protótipo v3.0                                   :        des23, after des17, 2023-06-01
     Análise dos requisitos                                        :        des24, after des17, 2023-06-01
     Prevenção de riscos                                           :        des25, after des17, 2023-06-01
