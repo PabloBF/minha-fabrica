@@ -16,9 +16,9 @@
 
 1. ✨ [UC01. Cadastrar componente eletrônico](./UC01.%20Cadastrar%20componente%20eletrônico.md)
 2. ✨ [UC02. Editar componente eletrônico](./UC02.%20Editar%20componente%20eletrônico.md)
-3. ❌ [UC03. Excluir componente eletrônico](./UC03.%20Excluir%20componente%20eletrônico.md)
-4. ❌ [UC04. Duplicar componente eletrônico](./UC04.%20Duplicar%20componente%20eletrônico.md)
-5. ❌ [UC05. Cadastrar usuário](./UC05.%20Cadastrar%20usuário.md)
+3. ✨ [UC03. Excluir componente eletrônico](./UC03.%20Excluir%20componente%20eletrônico.md)
+4. ✨ [UC04. Duplicar componente eletrônico](./UC04.%20Duplicar%20componente%20eletrônico.md)
+5. ✨ [UC05. Pré-cadastrar usuário](./UC05.%20Pré-cadastrar%20usuário.md)
 6. ❌ [UC06. Editar usuário](./UC06.%20Editar%20usuário.md)
 7. ❌ [UC07. Excluir usuário](./UC07.%20Excluir%20usuário.md)
 8. ✅ [UC08. Cadastrar projeto](./UC08.%20Cadastrar%20projeto.md)
