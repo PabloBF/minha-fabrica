@@ -15,7 +15,7 @@
 - ✨ para "concluído e revisado"
 
 1. ✨ [UC01. Cadastrar componente eletrônico](./UC01.%20Cadastrar%20componente%20eletrônico.md)
-2. 🚧 [UC02. Editar componente eletrônico](./UC02.%20Editar%20componente%20eletrônico.md)
+2. ✨ [UC02. Editar componente eletrônico](./UC02.%20Editar%20componente%20eletrônico.md)
 3. ❌ [UC03. Excluir componente eletrônico](./UC03.%20Excluir%20componente%20eletrônico.md)
 4. ❌ [UC04. Duplicar componente eletrônico](./UC04.%20Duplicar%20componente%20eletrônico.md)
 5. ❌ [UC05. Cadastrar usuário](./UC05.%20Cadastrar%20usuário.md)
