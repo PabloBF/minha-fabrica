@@ -57,7 +57,50 @@ Tabela 1 - Cronograma do projeto.
 | 10/05/2023 a 01/06/2023 | 3    | - Análise dos requisitos<br>- Prevenção de riscos<br>- Análise para gestão de prazo<br>- Desenvolvimento da quarta versão do protótipo<br>- Atualização da documentação<br>- Validação da quarta versão do protótipo. |
 | 02/06/2023 a 28/06/2023 | 4    | - Desenvolvimento da versão final do protótipo<br>- Produção da documentação final<br>- Validação da versão final do protótipo. |
 
-![Gráfico de Gantt para o cronograma do projeto](Gantt.png)
+```mermaid
+gantt
+    dateFormat  YYYY-MM-DD
+    title       Cronograma do projeto
+    section Fase 1
+    Levantamento dos requisitos                                   :active, des1,  2023-03-08, 2023-04-11
+    Construção do modelo de negócio                               :active, des2,  2023-03-08, 2023-04-11
+    Prevenção de riscos                                           :active, des3,  2023-03-08, 2023-04-11
+    Análise para gestão de prazo                                  :active, des4,  2023-03-08, 2023-04-11
+    Produção do documento de especificação de requisitos          :active, des5,  2023-03-08, 2023-04-11
+
+    section Fase 2
+    Análise dos requisitos                                        :        des6,  after des5, 2023-05-09
+    Prevenção de riscos                                           :        des7,  after des5, 2023-05-09
+    Análise para gestão de prazo                                  :        des8,  after des5, 2023-05-09
+    Desenvolvimento do protótipo v1.0                             :        des9,  after des5, 2023-05-09
+    Produção da documentação inicial                              :        des10, after des5, 2023-05-09
+    Validação do protótipo v1.0                                   :        des11, after des5, 2023-05-09
+    Análise dos requisitos                                        :        des12, after des5, 2023-05-09
+    Prevenção de riscos                                           :        des13, after des5, 2023-05-09
+    Análise para gestão de prazo                                  :        des14, after des5, 2023-05-09
+    Desenvolvimento do protótipo v2.0                             :        des15, after des5, 2023-05-09
+    Atualização da documentação                                   :        des16, after des5, 2023-05-09
+    Validação do protótipo v2.0                                   :        des17, after des5, 2023-05-09
+
+    section Fase 3
+    Análise dos requisitos                                        :        des18, after des17, 2023-06-01
+    Prevenção de riscos                                           :        des19, after des17, 2023-06-01
+    Análise para gestão de prazo                                  :        des20, after des17, 2023-06-01
+    Desenvolvimento do protótipo v3.0                             :        des21, after des17, 2023-06-01
+    Atualização da documentação;                                  :        des22, after des17, 2023-06-01
+    Validação do protótipo v3.0                                   :        des23, after des17, 2023-06-01
+    Análise dos requisitos                                        :        des24, after des17, 2023-06-01
+    Prevenção de riscos                                           :        des25, after des17, 2023-06-01
+    Análise para gestão de prazo                                  :        des26, after des17, 2023-06-01
+    Desenvolvimento do protótipo v4.0                             :        des27, after des17, 2023-06-01
+    Atualização da documentação                                   :        des28, after des17, 2023-06-01
+    Validação do protótipo v4.0                                   :        des29, after des17, 2023-06-01
+
+    section Fase 4
+    Desenvolvimento da versão final do protótipo                  :        des30, after des29, 2023-06-28
+    Produção da documentação final                                :        des31, after des29, 2023-06-28
+    Validação da versão final do protótipo                        :        des32, after des29, 2023-06-28
+```
 
 
 ## Resultados esperados
