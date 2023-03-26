@@ -9,7 +9,7 @@
 - 📦 Fornecedor
 
 ## Casos de uso
-- ❌ para "não iniciado"
+- ❌ para "iniciado"
 - 🚧 para "em andamento"
 - ✅ para "concluído"
 - ✨ para "concluído e revisado"
