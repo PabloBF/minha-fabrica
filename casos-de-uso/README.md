@@ -38,5 +38,5 @@
 21. ❌ [UC19. Logoff](./UC19.%20Logoff.md)
 22. ❌ [UC20. Fazer pedido](./UC20.%20Fazer%20pedido.md)
 23. ❌ [UC21. Consultar almoxarifado](./UC21.%20Consultar%20almoxarifado.md)
-24. ❌ [UC22. Consultar estoque](./UC22.%20Consultar%20estoque.md)
+24. 🚧 [UC22. Consultar estoque](./UC22.%20Consultar%20estoque.md)
 25. ✨ [UC23. Avaliar submissão](./UC23.%20Avaliar%20submissão.md)
