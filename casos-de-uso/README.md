@@ -34,7 +34,7 @@
 17. ❌ [UC16. Gerar relatório financeiro](./UC16.%20Gerar%20relatório%20financeiro.md)
 18. ❌ [UC17. Comprar componentes](./UC17.%20Comprar%20componentes.md)
 19. ❌ [UC18. Login](./UC18.%20Login.md)
-20. ❌ [UC18.1. Acesso negado](./UC18.1.%20Acesso%20negado.md)
+20. 🚧 [UC18.1. Acesso negado](./UC18.1.%20Acesso%20negado.md)
 21. ❌ [UC19. Logoff](./UC19.%20Logoff.md)
 22. ❌ [UC20. Fazer pedido](./UC20.%20Fazer%20pedido.md)
 23. ❌ [UC21. Consultar almoxarifado](./UC21.%20Consultar%20almoxarifado.md)
