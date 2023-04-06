@@ -1,6 +1,23 @@
 ```mermaid
+---
+Minha fábrica
+---
 classDiagram
-    direction LR
+    Funcionario {
+    - nome: String[50]
+    - sobrenome: String[50]
+    - nomeSocial: String[50]
+    - dataNascimento: Data
+    - endereco: Endereco[150]
+    - cargo: Cargos
+    }
+    
+    
+    class ComponenteEletronico {
+    - codigo: int
+    - 
+    }
+    
 
     Cliente             "-cliente 1" <--               NotaFiscalVenda
     NotaFiscalVenda                  <..               TesteNotaFiscal : usa
