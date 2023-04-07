@@ -70,7 +70,6 @@ classDiagram
     
     class Pais {
     sigla: String[3]
-    %% sigla baseada no Código ISO 3166-1 Alpha-3: código de três letras que representa o nome do país. Por exemplo, BRA para Brasil, USA para Estados Unidos, JPN para Japão, etc.
     nome: String[50]
     }
     
