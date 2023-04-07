@@ -3,19 +3,22 @@
 Minha fábrica
 ---
 classDiagram
-    Funcionario {
+
+    
+    UsuarioNaoAutenticado {
     - nome: String[50]
     - sobrenome: String[50]
     - nomeSocial: String[50]
     - dataNascimento: Data
-    - endereco: Endereco[150]
+    - endereco: Endereco
+    - telefones: Telefone
     - cargo: Cargos
     }
     
     
     class ComponenteEletronico {
-    - codigo: int
-    - 
+    - codigo: auto int
+    
     }
     
 
