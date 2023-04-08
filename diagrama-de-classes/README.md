@@ -1,109 +1,47 @@
 ```mermaid
 classDiagram
-    UsuarioNaoLogado "1" *-- "1" PreCadastro
+    Funcionario <|-- Operador
+    Operador <|-- Projetista
+    Projetista <|-- Administrador
+    Projeto "0..*" o-- "1..*" ComponenteEletronico
     
-    class UsuarioNaoLogado {
-    + precadastrar(nome, sobrenome, nomeSocial, cpf, dataNascimento, endereco, telefones, email, cargo, senha): PreCadastro
-    }
-    
-    class PreCadastro {
+    class Funcionario {
+    <<abstract>>
     - nome: String[50]
     - sobrenome: String[50]
     - nomeSocial: String[150]
     - cpf: String[11]
     - dataNascimento: Date
-    - endereco: Endereco
-    - telefones: Map~etiqueta-Telefone~
+    - endereco: String[255]
+    - telefone: String[15]
     - email: String[50]
+    - emailCorporativo: String[50]
     - cargo: Cargo
     - senha: String[64]
-    - dataRegistro: DateTime
+    - dataRegistro: DateTime = now
+    - situacao: Situacao = Situacao.NaoConfirmado
+    + Funcionario(nome, sobrenome, nomeSocial, cpf, dataNascimento, endereco, telefones, email, cargo, senha)$
     }
     
-    class TipoLogradouro {
+    class Operador {
+    - cargo: Cargo = Cargo.Operador
+    + fabricarProduto()
+    
+    }
+    
+    class Projetista {
+    - cargo: Cargo = Cargo.Projetista
+    }
+    
+    class Administrador {
+    - cargo: Cargo = Cargo.Administrador
+    }
+        
+    class Situacao {
     <<enumeration>>
-    Aeroporto
-    Alameda
-    Área
-    Avenida
-    Campo
-    Chácara
-    Colônia
-    Condomínio
-    Conjunto
-    Distrito
-    Esplanada
-    Estação
-    Estrada
-    Favela
-    Fazenda
-    Feira
-    Jardim
-    Ladeira
-    Lago
-    Lagoa
-    Largo
-    Loteamento
-    Morro
-    Núcleo
-    Parque
-    Passarela
-    Pátio
-    Praça
-    Quadra
-    Recanto
-    Residencial
-    Rodovia
-    Rua
-    Setor
-    Sítio
-    Travessa
-    Trecho
-    Trevo
-    Vale
-    Vereda
-    Via
-    Viaduto
-    Viela
-    Vila
-    }
-    
-    class Pais {
-    sigla: String[3]
-    nome: String[50]
-    }
-    
-    class Uf {
-    - pais: Pais
-    - sigla: String[2]
-    - nome: String[50]
-    }
-    
-    class Municipio {
-    - uf: Uf
-    - nome: String[50]
-    }
-    
-    class Logradouro {
-    - tipo: TipoLogradouro
-    - logradouro: String[100]
-    - municipio: Municipio
-    }
-    
-    class Cep {
-    - cep: String[9]
-    - uf: Uf
-    - logradouro: Logradouro
-    - numeroInicio: int
-    - NumeroFim: int
-    }
-    
-    class Endereco {
-    - municipio: Municipio
-    - cep: Cep
-    - Logradouro: String[100]
-    - numero: String[6]
-    - complemento: String[100]
+    NaoConfirmado
+    Ativo
+    Inativo    
     }
     
     class Cargo {
@@ -111,5 +49,21 @@ classDiagram
       Operador
       Projetista
       Administrador
+    }
+    
+    class ComponenteEletronico {
+    - nome: String[50]
+    - categoria: CategoriaComponente
+    - subcategoria: SubcategoriaComponente
+    - descricao: String[255]
+    - fabricante: String[50]
+    - foto: Hiperlink
+    - folhaDeDados: Hiperlink
+    }
+    
+    class Projeto {
+    - nome: String[100]
+    - descricao: String[255]
+    - bomList: Map[componente: ComponenteEletronico, quantidade: int]
     }
 ```
