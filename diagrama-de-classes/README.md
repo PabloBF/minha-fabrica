@@ -33,6 +33,18 @@ classDiagram
     - cargo: Cargo = Cargo.Projetista
     }
     
+    class SistemaFabrica {
+    - cargo: Cargo = Cargo.SistemaFabrica
+    + fazerPedido()
+    + gerarRelatórioDeProjeto()
+    }
+    
+    class FornecedorDeComponentes {
+    - cargo: Cargo = Cargo.FornecedorDeComponentes
+    + comprarComponentes()
+    + cadastrarAquisicaoDeComponentes()
+    }
+    
     class Administrador {
     - cargo: Cargo = Cargo.Administrador
     }
@@ -49,6 +61,8 @@ classDiagram
       Operador
       Projetista
       Administrador
+      FornecedorDeComponentes
+      SistemaFabrica
     }
     
     class ComponenteEletronico {
