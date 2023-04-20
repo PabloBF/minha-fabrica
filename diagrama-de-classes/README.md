@@ -25,28 +25,51 @@ classDiagram
     
     class Operador {
     - cargo: Cargo = Cargo.Operador
-    + fabricarProduto()
-    
+    + producaoDeProjeto()
+    + gerarRelatorioDeProjeto()
+    + gerarRelatorioDeAlmoxarifado()
+    + login()
+    + logoff()
+    + fazerPedido()
     }
     
     class Projetista {
     - cargo: Cargo = Cargo.Projetista
+    + cadastrarComponente()
+    + editarComponenteEletrônico()
+    + duplicarComponenteEletrônico()
+    + cadastrarProjeto()
+    + editarProjeto()
+    + excluirProjeto()
     }
     
     class SistemaFabrica {
     - cargo: Cargo = Cargo.SistemaFabrica
     + fazerPedido()
     + gerarRelatórioDeProjeto()
+    + fazerPedido()
     }
     
     class FornecedorDeComponentes {
     - cargo: Cargo = Cargo.FornecedorDeComponentes
     + comprarComponentes()
-    + cadastrarAquisicaoDeComponentes()
+    + cadastrarAquisicaoDeComponente()
+    + comprarComponentes()
     }
     
     class Administrador {
     - cargo: Cargo = Cargo.Administrador
+    + excluirComponenteEletrônico()
+    + autenticarCadastroDeUsuário()
+    + editarUsuário()
+    + excluirUsuário()
+    + cadastrarAquisicaoDeComponente()
+    + regisstrarBaixaDeComponente()
+    + gerarRelatorioFinanceiro()
+    + comprarComponentes()
+    + consultarAlmoxarifado()
+    + consultarEstoque()
+    + avaliarSubmissao()
     }
         
     class Situacao {
