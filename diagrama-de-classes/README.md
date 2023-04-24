@@ -25,7 +25,7 @@ classDiagram
     
     class Operador {
     - cargo: Cargo = Cargo.Operador
-    + producaoDeProjeto()
+    + produzirProjeto()
     + gerarRelatorioDeProjeto()
     + gerarRelatorioDeAlmoxarifado()
     + login()
