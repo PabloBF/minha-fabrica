@@ -56,11 +56,11 @@ classDiagram
     
     class Administrador {
     - cargo: Cargo = Cargo.Administrador
-    + excluirComponenteEletrônico()
-    + autenticarCadastroDeUsuário()
-    + editarUsuário()
-    + excluirUsuário()
-    + regisstrarBaixaDeComponente()
+    + excluirComponenteEletronico()
+    + autenticarCadastroDeUsuario()
+    + editarUsuario()
+    + excluirUsuario()
+    + registrarBaixaDeComponente()
     + gerarRelatorioFinanceiro()
     + comprarComponentes()
     + consultarAlmoxarifado()
