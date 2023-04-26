@@ -63,7 +63,6 @@ classDiagram
     + autenticarCadastroDeUsuário()
     + editarUsuário()
     + excluirUsuário()
-    + cadastrarAquisicaoDeComponente()
     + regisstrarBaixaDeComponente()
     + gerarRelatorioFinanceiro()
     + comprarComponentes()
