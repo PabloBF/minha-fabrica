@@ -31,6 +31,7 @@ classDiagram
     + login()
     + logoff()
     + fazerPedido()
+    + revisarStatusDeProjeto()
     }
     
     class Projetista {
