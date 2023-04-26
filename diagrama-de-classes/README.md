@@ -47,14 +47,10 @@ classDiagram
     - cargo: Cargo = Cargo.SistemaFabrica
     + fazerPedido()
     + gerarRelatórioDeProjeto()
-    + fazerPedido()
     }
     
     class FornecedorDeComponentes {
     - cargo: Cargo = Cargo.FornecedorDeComponentes
-    + comprarComponentes()
-    + cadastrarAquisicaoDeComponente()
-    + comprarComponentes()
     }
     
     class Administrador {
